@@ -23,18 +23,25 @@
 .navbar-left ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 22px;
+    align-items: center;
+    font-size: 19px;
 }
 
 .navbar-left ul li {
     cursor: pointer;
 } 
 
+.navbar-left ul li:hover {
+    color: rgb(255, 0, 0);
+    text-decoration-line: underline;
+
+}
 
 .navbar-right {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .navbar-right .icons {
@@ -75,4 +82,38 @@
 .navbar .dropdown p{
     font-size: 13px;
     cursor: pointer;
+}
+
+.nav-dark {
+    background: #141414;
+}
+
+@media (max-width: 800px) {
+    .navbar{
+        padding: 20px 4%;
+    }
+    .navbar-left ul {
+        display: none;
+    }
+    .navbar img {
+        height: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar img {
+        height: 20px;
+    }
+    .navbar-right {
+        gap: 10px;
+    }
+    .navbar-right .profile {
+        width: 25px;
+    }
+    .navbar .dropdown p{
+        font-size: 10px; 
+    }
+    .navbar .dropdown {
+        padding: 12px 16px;
+    }
 }
