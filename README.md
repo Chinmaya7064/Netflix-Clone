@@ -3,7 +3,7 @@
 This is a Netflix clone web application built using React and Firebase. The app allows users to sign up, log in, and access a dashboard where they can browse through a list of movies. Authentication and user data are securely managed via Firebase. The project is fully deployed on GitHub.
 
 ## Live Demo 
-https://enchanting-cannoli-dd36b9.netlify.app/login
+[ https://enchanting-cannoli-dd36b9.netlify.app/login ]
 
 ## Features
 
